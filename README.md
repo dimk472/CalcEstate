@@ -1,5 +1,6 @@
 Welcome to CalcEstate 👋
-![Uploading repoBanner.png…]()
+
+<img src="https://github.com/user-attachments/assets/repoBanner.png" alt="CalcEstate Banner" width="800" />
 
 CalcEstate is a digital real estate calculator designed for investors, students, and enthusiasts. With CalcEstate, you can:
 
