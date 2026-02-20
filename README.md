@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# Welcome to CalcEstate 👋
+
+CalcEstate is a **digital real estate calculator** designed for investors, students, and enthusiasts. With CalcEstate, you can calculate **over 20 real estate ratios**, create and manage a **property portfolio**, and store calculated data **locally on your device**, keeping everything organized and easily accessible.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+---
+
+## Features of CalcEstate
+<img width="512" height="1024" alt="ScreenShot1" src="https://github.com/user-attachments/assets/dd8fdb7b-7ca7-4c69-a785-b76f41e167f0" />
+
+<img width="512" height="1024" alt="ScreenShot2" src="https://github.com/user-attachments/assets/8e568497-9be0-43f5-92b4-2c1bc2290543" />
+
+- **Calculate Real Estate Ratios**: ROI, Cap Rate, Cash-on-Cash, and many more without manual calculations.  
+- **My Properties**: Add properties to your portfolio and save calculated ratios for each property.  
+- **Organized Storage**: All property data and ratios are stored locally on your device.  
+- **Portfolio Overview**: Track multiple properties and compare their performance.  
+- **User-Friendly Interface**: Simple, intuitive design for beginners and advanced users.  
+- **Non-Commercial & Privacy-Friendly**: No personal data is collected or transmitted outside the device.
+
+---
+
+## Get Started
 
 1. Install dependencies
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
 ```bash
-npm run reset-project
-```
+npm install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2.Start the app
