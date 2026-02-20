@@ -1,30 +1,92 @@
-# Welcome to CalcEstate 👋
+Welcome to CalcEstate 👋
+![Uploading repoBanner.png…]()
 
-CalcEstate is a **digital real estate calculator** designed for investors, students, and enthusiasts. With CalcEstate, you can calculate **over 20 real estate ratios**, create and manage a **property portfolio**, and store calculated data **locally on your device**, keeping everything organized and easily accessible.
+CalcEstate is a digital real estate calculator designed for investors, students, and enthusiasts. With CalcEstate, you can:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- Calculate over 20 real estate ratios including ROI, Cap Rate, and Cash-on-Cash.
+- Create and manage a property portfolio.
+- Store all data locally on your device, keeping your properties and calculations organized and secure.
 
----
+This project is built with Expo using create-expo-app for a smooth, cross-platform mobile experience.
 
-## Features of CalcEstate
-<img width="512" height="1024" alt="ScreenShot1" src="https://github.com/user-attachments/assets/dd8fdb7b-7ca7-4c69-a785-b76f41e167f0" />
+Features
 
-<img width="512" height="1024" alt="ScreenShot2" src="https://github.com/user-attachments/assets/8e568497-9be0-43f5-92b4-2c1bc2290543" />
+- Calculate Real Estate Ratios: ROI, Cap Rate, Cash-on-Cash, and more, instantly.
+- My Properties: Add properties to your portfolio and save all calculated ratios.
+- Organized Local Storage: No internet required; all data is stored safely on your device.
+- Portfolio Overview: Compare multiple properties at a glance.
+- User-Friendly Interface: Clean, intuitive design suitable for beginners and advanced users alike.
+- Privacy-Focused: Non-commercial and does not transmit any personal data.
 
-- **Calculate Real Estate Ratios**: ROI, Cap Rate, Cash-on-Cash, and many more without manual calculations.  
-- **My Properties**: Add properties to your portfolio and save calculated ratios for each property.  
-- **Organized Storage**: All property data and ratios are stored locally on your device.  
-- **Portfolio Overview**: Track multiple properties and compare their performance.  
-- **User-Friendly Interface**: Simple, intuitive design for beginners and advanced users.  
-- **Non-Commercial & Privacy-Friendly**: No personal data is collected or transmitted outside the device.
+Getting Started
 
----
+Prerequisites
 
-## Get Started
+Make sure you have the following installed:
 
-1. Install dependencies
+- Node.js (v18+ recommended)
+- npm or yarn
+- Expo CLI (optional, if you want to run on device or simulator)
 
-```bash
+Check your installations:
+
+node -v
+npm -v
+expo --version  # optional
+
+Clone the repository
+
+git clone https://github.com/<your-username>/CalcEstate.git
+cd CalcEstate
+
+Install dependencies
+
 npm install
+# or
+yarn install
 
-2.Start the app
+Run the app
+
+On a mobile device
+
+1. Install the Expo Go app from App Store or Google Play.
+2. Start the Expo server:
+
+npm start
+# or
+yarn start
+
+3. Scan the QR code with the Expo Go app to launch CalcEstate on your device.
+
+On a simulator/emulator
+
+- iOS: Press i in the terminal to launch the iOS simulator (Mac only).
+- Android: Press a to launch the Android emulator.
+
+Optional: Build a standalone app
+
+To create a standalone app for iOS or Android, follow the Expo Build documentation.
+
+Project Structure
+
+CalcEstate/
+├── assets/        # Images, icons, fonts
+├── src/           # App source code
+│   ├── components/
+│   ├── screens/
+│   └── utils/
+├── App.js         # Entry point
+├── package.json
+└── README.md
+
+Contributing
+
+1. Fork the repository
+2. Create a feature branch: git checkout -b feature/YourFeature
+3. Commit your changes: git commit -m "Add some feature"
+4. Push to the branch: git push origin feature/YourFeature
+5. Open a Pull Request
+
+License
+
+This project is non-commercial and privacy-friendly, but you can check the LICENSE file for details.
