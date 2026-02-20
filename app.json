@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "CalcEstate",
+    "slug": "CalcEstate",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "calcestate",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.calcestate.app",
+      "buildNumber": "2",
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#000000"
+      },
+      "backgroundColor": "#000000",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.calcestate.app",
+      "versionCode": 2,
+      "navigationBar": {
+        "visible": "leanback",
+        "backgroundColor": "#000000"
+      }
+    },
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/icon.png",
+      "backgroundColor": "#000000"
+    },
+    "backgroundColor": "#000000",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "aa4a9d72-bccd-4f77-ac35-a28d4e66d474"
+      }
+    }
+  }
+}
