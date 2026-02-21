@@ -93,3 +93,21 @@ Contributing
 License
 
 This project is non-commercial and privacy-friendly, but you can check the LICENSE file for details.
+
+Donate!
+
+If you like this project and want to support its development, consider making a donation.
+Your support helps improve the project and keep it maintained.
+
+👉 [Donate here](https://paypal.me/dimkaza)
+
+Crypto donates
+
+BTC: bc1q9n45lwyj0rz9kxk7n0zeqr2hf4hu056aznk8j2
+ETH: 0x19b2963c6a3a9e674390bab025a96b755137e774
+SOL: GB2FU6f7rAfzbGiLBYrmfJRJkKxb9nnzVTQJej2PzSGf
+USDC: 0x19b2963c6a3a9e674390bab025a96b755137e774
+USDT: 0x19b2963c6a3a9e674390bab025a96b755137e774
+BNB: 0x19b2963c6a3a9e674390bab025a96b755137e774
+
+Thank you for your support!
